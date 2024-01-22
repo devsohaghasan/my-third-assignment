@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Hockey Club</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!--tailwin-castom-class-->
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <!--tailwin-castom-class-->
+  <header>
+    <nav>
+      <div class="navbar bg-base-100">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Page</a></li>
+                <li><a>blog</a></li>
+                <li><a>Contuct</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost text-2xl">Hockey’s</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Page</a></li>
+                <li><a>blog</a></li>
+                <li><a>Contuct</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn btn-error">Get Ticket</a>
+          </div>
+        </div>
+  </nav>
+
+  <!--bener and carousel-->
+  <div class="container lg:mx-auto">
+    <div class="carousel w-full">
+      <!--bener-1-->
+      <div id="slide1" class="carousel-item relative w-full">
+        <div class="justify-items-center block">
+          <div class="flex justify-center p-12">
+            <img src="./Images/1.png" class=" flex justify-items-center "/>
+          </div>
+          <div class="bg-black h-52 w-80 border-solid border-2 border-sky-500 rounded-md p-4  ml-52 lg:-mt-64 ">
+            <h3 class="text-3xl text-zinc-50">Meet all the heroes from the field</h3>
+            <p class="text-slate-50">
+              Meet the #OpOlympus team!! First up Gary Ryder Gary is one of the founding 
+               member of Hockey for. Heroes. When things get tough Gary's always on hand
+            </p>
+          </div>
+        </div>  
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+            <a href="#slide4" class="btn btn-circle">❮</a> 
+            <a href="#slide2" class="btn btn-circle">❯</a>
+        </div>
+      </div> 
+      
+      <!--bener-2-->
+      <div id="slide2" class="carousel-item relative w-full">
+        <div class="flex lg:flex-row gap-20 p-8 lg:px-24  bg-green-300 h-[100vh]">
+          <div class="justify-items-center block">
+            <div class="flex justify-center p-12">
+              <img src="./Images/1.png" class=" flex justify-items-center "/>
+            </div>
+            <div class="bg-black h-52 w-80 border-solid border-2 border-sky-500 rounded-md p-4  ml-52 lg:-mt-64 ">
+              <h3 class="text-3xl text-zinc-50">Meet all the heroes from the field</h3>
+              <p class="text-slate-50">
+                Meet the #OpOlympus team!! First up Gary Ryder Gary is one of the founding 
+                 member of Hockey for. Heroes. When things get tough Gary's always on hand
+              </p>
+            </div>
+          </div>
+        <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+          <a href="#slide1" class="btn btn-circle">❮</a> 
+          <a href="#slide1" class="btn btn-circle">❯</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </header>
+  <main>
+
+  </main>
+  <footer>
+    
+  </footer>
+    
+</body>
+</html>
